@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - string</title>
+</head>
+<body>
+    
+    <script>
+
+
+        // -- String is a sequence of character represented a text.
+        // -- collection of character
+        // -- alphabets == character 
+        // -- words == string
+
+        // var nam = 'alok';
+        // console.log(nam);
+
+       let name = "This is a Javascript"
+       document.write("Upper : " + name.toUpperCase() + "<br>") ;
+       document.write("Lower : " + name.toLowerCase() + "<br>") ;
+       document.write("Index : " + name.indexOf('J') + "<br>");
+       document.write("Last Index : " + name.lastIndexOf('c') + "<br>");
+       document.write("Length : " + name.length + "<br>");
+       document.write("Substring : " + name.substring(3) + "<br>");
+       document.write("Substring : " + name.substring(3, 7) + "<br>");
+       document.write("Char At : " + name.CharAt(3) + "<br>")
+       document.write("Replace : " + name.replace("Javascript" , "Java") + "<br>");
+
+
+        // -= Template Laterals in JS
+        // -= backtick (``) is used to define template literals
+        // -= template literals are used to define multi line strings
+        // -= template literals are used to define string with expression
+
+       // var obj = `This is template lateral string`;
+       // console.log(obj)
+
+       // let obj = {
+       //     item: "Burger",
+       //     price: 110,
+       // };
+
+       // let output = `the cost of ${obj.item} is ${obj.price} rupees.`
+      //  document.write(output + "<br>")
+       // document.write("the cost of ", obj.item, " is " , obj.price, " rupees");
+        
+    </script>
+</body>
+</html>
